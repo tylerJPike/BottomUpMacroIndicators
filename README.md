@@ -24,7 +24,7 @@ Abstract: This paper constructs a leading macroeconomic indicator from microecon
     1. estimate firm-level defaults   
     script: corp_default_estimation  
     input:  corp_default_data_fisd.RDS  
-    output: /Estimation/[predicted values], /Outputgraphs/[tuning AUC charts][ROC curves][variable importance]  
+    output: /Estimation/[predicted values], /Estimation/[tuning AUC charts][ROC curves][variable importance]  
 
     2. calculate cross-sectional moments and aggregate firm-level probabilities into macro index  
     script: corp_default_index_creation    
