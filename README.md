@@ -54,13 +54,13 @@ Abstract: This paper constructs a leading macroeconomic indicator from microecon
 
 ## Notes
 Set up
-1. The required output files are included in this repo, however, if they need to be reinstantiated, then running the `initialize.sh` script will create the needed directories to run the replication.
+1. The required output folders are included in this repo, however, if they need to be reinstantiated, then running the `initialize.sh` script will create the needed directories to run the replication.
 2. One will need access to FRB data sources to fully run this replication, but publicly available data may be substituted in as a proxy in several instances.
 
 Run-time
 1. File paths assume a unix environment and that the working directory is the project's root.
 2. The recursive index takes days to run, if constructed from scratch; parallel processing is necessary for reasonable execution times.
-3. Users WRDS credentials will have to be supplied in `corp_default_data_creation.R` and `corp_default_index_creation.R`
+3. The user's WRDS credentials will have to be supplied in `corp_default_data_creation.R` and `corp_default_index_creation.R`
 4. Files may be run one-at-a-time independently or all together via `replicate.sh` 
 
 
